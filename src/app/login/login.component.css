@@ -1,0 +1,14 @@
+.card {
+    width: 32%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.form-group {
+    margin: 0 auto;
+    width: 14rem;
+}
+
+.btn-primary {
+    margin-top: 15px;
+}
