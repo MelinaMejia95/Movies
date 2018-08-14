@@ -1,0 +1,17 @@
+.container {
+    padding: 3%;
+}
+
+.card{
+    margin-bottom: 9%;
+}
+
+.card-img-top {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.card-body{
+    text-align: center;
+}

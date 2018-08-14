@@ -1,0 +1,16 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="row">
+    <div class="col s12 m6 l4" *ngFor="let popular of populars">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src= "https://image.tmdb.org/t/p/w500{{popular.backdrop_path}}" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title mx-auto">{{popular.title}}</h6>
+          <p class="card-text">{{popular.release_date}}</p>
+          <p class="card-text">Director: </p>
+          <a href="#" class="btn btn-primary">Details</a>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
